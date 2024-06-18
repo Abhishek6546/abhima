@@ -6,5 +6,5 @@ const conf ={
     appwriteBucketId:String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 
 }
-console.log("TinyMCE conf.js:", conf.tinymceApiKey); 
+
 export default conf
