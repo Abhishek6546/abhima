@@ -7,5 +7,5 @@ const conf ={
     tinymceApiKey: String(import.meta.env.VITE_TINYMCE_API_KEY),
 
 }
-
+console.log("TinyMCE API Key from conf.js:", conf.tinymceApiKey); 
 export default conf
